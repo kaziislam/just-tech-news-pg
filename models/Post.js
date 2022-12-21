@@ -25,10 +25,7 @@ class Post extends Model {
                     ]
                 });
             })
-            .catch(err => {
-                console.log(err);
-                return;
-            });
+            .catch(console.error)
     }
 }
 

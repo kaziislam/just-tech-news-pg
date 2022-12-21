@@ -8,7 +8,7 @@ require('dotenv').config();
 const sequelize = new Sequelize(process.env.DB_URL, {
     // host: 'localhost',
     dialect: 'postgres',
-    operatorsAliases: false,
+    // operatorsAliases: false,
     port: 5432,
 
     pool: {

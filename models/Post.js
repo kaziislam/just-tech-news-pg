@@ -25,9 +25,9 @@ class Post extends Model {
                     ]
                 });
             })
-            .catch(function(err){
-                console.log("Error!"); //********************** Doesn't work ***************************
-                var msg = err;
+            .catch(err => {
+                console.log(err);
+                return;
             });
     }
 }

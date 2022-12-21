@@ -25,7 +25,6 @@ class Post extends Model {
                     ]
                 });
             })
-            .catch(console.error)
     }
 }
 
